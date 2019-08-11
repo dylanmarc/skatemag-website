@@ -13,7 +13,6 @@ nav{
   background-image: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/19.jpg);
 }
 nav h1{
-  flex: 6;
   font-size: 50pt;
   margin-left: 15px;
 }
@@ -21,6 +20,9 @@ nav h2{
   text-align: center;
   font-size: 30pt;
 
+}
+.nav-logo{
+  flex: 6;
 }
 .nav-link{
   flex: 2;
@@ -49,6 +51,7 @@ input{
   margin-left: 10px;
   width: 300px;
   height: 50px;
+  font-size: 15pt;
 }
 
 .articles{
