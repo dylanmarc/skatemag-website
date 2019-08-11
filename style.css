@@ -1,17 +1,21 @@
+html{
+    font-family: sans-serif;
+    background-image: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/19.jpg);
+}
 nav{
   display: flex;
   align-items: center;
   width: 100%;
   height: 100px;
   border: 10px solid black;
-  font-family: sans-serif;
   margin-left: -10px;
   margin-top: -10px;
-  background-color: rgb(200,200,200);
+  background-image: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/19.jpg);
 }
 nav h1{
   flex: 6;
   font-size: 50pt;
+  margin-left: 15px;
 }
 nav h2{
   text-align: center;
@@ -33,13 +37,51 @@ nav h2{
 }
 .search{
   flex: 1;
-  border: 1px solid red;
 }
 .articles{
   flex: 3;
-  border: 1px solid red;
 }
 .social{
   flex: 1;
-  border: 1px solid red;
+}
+input{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+.articles{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 1500px;
+}
+.article-wrap{
+  flex: 1;
+  margin-top: 75px;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+.article-wrap h1{
+  margin-top: 280px;
+  margin-left: 15px;
+}
+.article-wrap h2{
+  margin-left: 15px;
+}
+
+.social-media-wrap{
+  width:65%;
+  float: right;
+  display: flex;
+  margin-top: 20px;
+}
+.social-media{
+  flex: 1;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 30px;
+  border: 2px solid black;
+  background-color: white;
 }
