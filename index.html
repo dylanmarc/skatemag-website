@@ -4,6 +4,7 @@
   <head>
     <title>Skatemag - Latest News</title>
     <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='main.js'></script>
   </head>
 
   <body>
@@ -20,29 +21,36 @@
 
       <div class='main'>
         <div class='left'>
-          <ul id='article-list'>
-          <div title='Search articles'><input type="text" name="searchbar" placeholder='Search articles...'></div>
+
+          <div title='Search articles'><input type="text" id='myInput' onkeyup='searchArticles' name="searchbar" placeholder='Search articles...'></div>
 
           <div title='Featured and Latest Articles'>
-            <li>
-              <div class='article-wrap' id='featured' title='Featured article' style='background: url(https://i1.wp.com/entirelyextreme.com/wp-content/uploads/2018/03/best-skateboard-griptape.jpg?fit=960%2C640&ssl=1); background-size: contain;'>
-                <h1>Article Heading 1</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
-              </div>
-            </li>
-            <li>
-              <div class='article-wrap' title='Article #1' style='background: url(https://www.skateboardershq.com/wp-content/uploads/2018/07/Loose-grip-razor-tail-skateboard-deck.jpg); background-size: cover;'>
-                <h1>Article Heading 2</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
-              </div>
-            </li>
-            <li>
-              <div class='article-wrap' title='Article #2' style="background: url(https://clicklikethis.com/wp-content/uploads/2018/03/best-camera-for-filming-skateboarding.jpg); background-size: contain;">
-                <h1>Article Heading 3</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
-              </div>
-            </li>
-          </div>
+            <ul id='article-list'>
+              <li>
+                <div class='article-wrap' id='featured' title='Featured article' style='background: url(https://i1.wp.com/entirelyextreme.com/wp-content/uploads/2018/03/best-skateboard-griptape.jpg?fit=960%2C640&ssl=1); background-size: contain;'>
+                  <div class='article-content'>
+                    <h1>Article Heading 1</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='article-wrap' title='Article #1' style='background: url(https://www.skateboardershq.com/wp-content/uploads/2018/07/Loose-grip-razor-tail-skateboard-deck.jpg); background-size: cover;'>
+                  <div class='article-content'>
+                    <h1>Article Heading 2</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class='article-wrap' title='Article #2' style="background: url(https://clicklikethis.com/wp-content/uploads/2018/03/best-camera-for-filming-skateboarding.jpg); background-size: contain;">
+                  <div class='article-content'>
+                    <h1>Article Heading 3</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis pharetra dolor, sed gravida magna. Vivamus.</h2>
+                  </div>
+                </div>
+              </li>
+            </div>
         </ul>
       </div>
 

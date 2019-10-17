@@ -4,9 +4,11 @@
   <head>
     <title>Skatemag - Shop</title>
     <link rel='stylesheet' type='text/css' href='shopstyle.css'>
+    <script src='main.js'></script>
   </head>
 
   <body>
+
       <nav title='Navigation bar'>
         <a href='index.html'><div class='nav-logo' title='Skatemag logo'></div></a>
         <div class='nav-link-wrap'>
@@ -20,8 +22,8 @@
 
       <div class='main'>
         <div class='left'>
-          <div title='Search shop'><input type="text" name="searchbar" placeholder='Search shop...'></div>
-          <h1>Filter Options</h1>
+          <div title='Search shop'><input type="text" id='myInput' onkeyup='searchShop()' name="searchbar" placeholder='Search shop...'></div>
+          <h1 onclick='displayShop(itemList)'>Filter Options</h1>
           <div id='line'></div>
           <h2>Price</h2>
           <h2>Type</h2>
@@ -29,70 +31,7 @@
         </div>
 
         <div class='middle'>
-
-          <div class='shop-row'>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class='shop-row'>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class='shop-row'>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-            <div class='shop-item' style='background: url(https://cdn.shopify.com/s/files/1/0475/5337/products/gx1000-hood-og-logo-gunmetal-grey_1024x1024@2x.JPG?v=1561626873); background-size: cover;'>
-              <div class='shop-txt'>
-                <h1>GX1000 Hoodie</h1>
-                <h2>$150</h2>
-              </div>
-            </div>
-          </div>
-
+          <h1>test</h1>
         </div>
 
         <div class='right'>
