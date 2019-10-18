@@ -22,10 +22,10 @@
 
       <div class='main'>
         <div class='left'>
-          <div title='Search shop'><input type="text" id='myInput' onkeyup='searchShop()' name="searchbar" placeholder='Search shop...'></div>
-          <h1 onclick='displayShop(itemList)'>Filter Options</h1>
+          <div title='Search shop'><input type="text" id='myInput' onkeyup='searchShop(itemList)' name="searchbar" placeholder='Search shop...'></div>
+          <h1>Filter Options</h1>
           <div id='line'></div>
-          <h2>Price</h2>
+          <h2 onclick='priceSort(itemList)'>Price</h2>
           <h2>Type</h2>
           <h2>Newest</h2>
         </div>

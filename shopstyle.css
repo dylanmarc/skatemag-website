@@ -29,6 +29,7 @@ nav h2{
 ul{
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 li{
 
@@ -147,6 +148,12 @@ input:focus{
   width: 200px;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.25s;
+}
+.shop-item:hover{
+  transition: 0.5s;
+  height: 320px;
+  width: 240px;
 }
 .shop-txt{
   color: white;
