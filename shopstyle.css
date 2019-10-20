@@ -1,6 +1,6 @@
 html{
     font-family: sans-serif;
-    background-image: url(https://us.123rf.com/450wm/ascenp/ascenp1707/ascenp170700113/82544855-seamless-texture-of-black-sponge-from-as-a-background.jpg?ver=6);
+    background-image: url(images/back.jpg);
 }
 a{
   text-decoration: none;
@@ -15,7 +15,6 @@ nav{
   margin-left: 10%;
   margin-right: 20px;
   margin-top: -10px;
-  background-image: url(https://us.123rf.com/450wm/ascenp/ascenp1707/ascenp170700113/82544855-seamless-texture-of-black-sponge-from-as-a-background.jpg?ver=6);
 }
 nav h1{
   font-size: 40pt;
@@ -25,6 +24,64 @@ nav h2{
   text-align: center;
   font-size: 25pt;
 
+}
+.nav-logo{
+  background-image: url(images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  height: 90px;
+  width: 200px;
+  transition: 0.25s;
+}
+.nav-logo:hover{
+  margin-top: 15px;
+  height: 100px;
+  width: 210px;
+  transition: 0.5s;
+}
+.nav-link-wrap{
+  min-width: 920px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: flex;
+  align-items: center;
+}
+.nav-link{
+  width: 200px;
+  margin-left: 40px;
+  height: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+.nav-link h2{
+  min-width: 184px;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  transition: 0.25s;
+}
+.nav-link h2:hover{
+  background-color: rgb(40,40,40);
+  border-bottom: 4px solid white;
+  transition: 0.5s;
+}
+.active-link h2{
+  background-color: rgb(40,40,40);
+  border-bottom: 4px solid white;
+}
+
+
+#divider{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 80%;
+  min-width: 984px;
+  height: 10px;
 }
 ul{
   margin: 0;
@@ -36,48 +93,7 @@ ul{
 li{
 
 }
-.nav-logo{
-  background-image: url(images/logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 20px;
-  height: 90px;
-  width: 200px;
-}
-.nav-link-wrap{
-  min-width: 920px;
-  position: absolute;
-  right: 0;
-  top: 25px;
-  display: flex;
-  align-items: center;
-}
-.nav-link{
-  width: 200px;
-  margin-left: 40px;
-  height: 80px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.nav-link h2{
-  min-width: 184px;
-}
-.nav-link h2:hover{
-  background-color: rgb(150,150,150);
-}
-.active-link h2{
-  background-color: rgb(150,150,150);
-}
 
-#divider{
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: white;
-  width: 80%;
-  min-width: 984px;
-  height: 10px;
-}
 
 .main{
   margin-top: 50px;
@@ -111,14 +127,14 @@ input{
   height: 35px;
 	width: 300px;
   font-size: 11pt;
-  background-color: rgb(150,150,150);
+  background-color: rgb(30,30,30);
   color: white;
   border:none;
   border-radius: 20px;
   padding-left: 15px;
 }
 input:hover{
-    background-color: rgb(120,120,120);
+    background-color: rgb(0,0,0);
 }
 input:focus{
 	outline-width: 0;
@@ -134,8 +150,16 @@ input:focus{
   width: 150px;
 }
 .filter-wrap{
-  background-color: rgb(150,150,150);
-  width: 40%;
+  background-color: rgb(50,50,50);
+  border-radius: 0px 10px 10px 0px;
+  border-left: 4px solid rgb(80,80,80);
+  width: 35%;
+  margin: auto;
+}
+.filter-wrap:hover{
+  background-color: rgb(80,80,80);
+  border-left: 4px solid white;
+  width: 35%;
   margin: auto;
 }
 .filter-wrap h2{
@@ -194,8 +218,13 @@ input:focus{
   border-radius: 15px;
   padding: 25px;
   margin-right: 30px;
-  border: 2px solid white;
+  border: 1px solid white;
   background-color: white;
+  transition: 0.25s;
+}
+.social-media:hover{
+  border: 3px solid white;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 1580px) {
