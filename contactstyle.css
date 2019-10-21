@@ -1,6 +1,6 @@
 html{
     font-family: sans-serif;
-    background-image: url(images/back.jpg);
+    background-image: url(images/back3.jpg);
 }
 a{
   text-decoration: none;
@@ -64,12 +64,12 @@ nav h2{
   transition: 0.25s;
 }
 .nav-link h2:hover{
-  background-color: rgb(40,40,40);
+  background-color: rgb(70,70,70);
   border-bottom: 4px solid white;
   transition: 0.5s;
 }
 .active-link h2{
-  background-color: rgb(40,40,40);
+  background-color: rgb(70,70,70);
   border-bottom: 4px solid white;
 }
 

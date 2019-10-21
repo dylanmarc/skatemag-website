@@ -1,6 +1,6 @@
 html{
     font-family: sans-serif;
-    background-image: url(images/back.jpg);
+    background-image: url(images/back3.jpg);
 }
 a{
   text-decoration: none;
@@ -64,12 +64,12 @@ nav h2{
   transition: 0.25s;
 }
 .nav-link h2:hover{
-  background-color: rgb(40,40,40);
+  background-color: rgb(70,70,70);
   border-bottom: 4px solid white;
   transition: 0.5s;
 }
 .active-link h2{
-  background-color: rgb(40,40,40);
+  background-color: rgb(70,70,70);
   border-bottom: 4px solid white;
 }
 
@@ -150,17 +150,21 @@ input:focus{
   width: 150px;
 }
 .filter-wrap{
-  background-color: rgb(50,50,50);
+  background-color: rgb(70,70,70);
   border-radius: 0px 10px 10px 0px;
-  border-left: 4px solid rgb(80,80,80);
+  border-left: 4px solid rgb(90,90,90);
   width: 35%;
   margin: auto;
 }
 .filter-wrap:hover{
-  background-color: rgb(80,80,80);
+  background-color: rgb(90,90,90);
   border-left: 4px solid white;
   width: 35%;
   margin: auto;
+}
+.filter-wrap:active{
+  background-color: rgb(30,30,30);
+  border-left: 5px solid white;
 }
 .filter-wrap h2{
   margin-bottom: 0;
@@ -185,12 +189,14 @@ input:focus{
   width: 200px;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 20px;
   transition: 0.25s;
 }
 .shop-item:hover{
   transition: 0.5s;
   height: 320px;
   width: 240px;
+  border-radius: 10px;
 }
 .shop-txt{
   color: white;

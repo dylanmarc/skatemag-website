@@ -1,6 +1,6 @@
 html{
     font-family: sans-serif;
-    background-image: url(images/back.jpg);
+    background-image: url(images/back3.jpg);
 }
 a{
   text-decoration: none;
@@ -64,7 +64,7 @@ nav h2{
   transition: 0.25s;
 }
 .nav-link h2:hover{
-  background-color: rgb(40,40,40);
+  background-color: rgb(70,70,70);
   border-bottom: 4px solid white;
   transition: 0.5s;
 }
@@ -121,6 +121,7 @@ input:focus{
 ul{
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .articles{
@@ -133,6 +134,7 @@ ul{
   height: 300px;
   margin-top: 75px;
   margin-left: 10px;
+  margin-bottom: 50px;
   border-radius: 5px;
   border: 1px solid black;
   color: white;
@@ -216,13 +218,14 @@ ul{
 .shop-link{
   margin-top: 20px;
   font-size: 18pt;
-  background-color: white;
+  background-color: rgb(220,220,220);
   color: black;
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   transition: 0.25s;
+  border-radius: 5px;
 }
 .shop-link:hover{
   transition: 0.5s;
@@ -234,6 +237,7 @@ ul{
 }
 .shop-right{
   flex: 1;
+  border-radius: 5px;
 }
 
 .community-post h1{
@@ -256,6 +260,7 @@ ul{
   padding-left: 10px;
   background-color: rgb(30,30,30);
   color: white;
+  border-radius: 5px 0 0 0;
 }
 
 @media only screen and (max-width: 1471px) {
